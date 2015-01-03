@@ -1,0 +1,13 @@
+# FactionsFly configuration
+toggle-cost: 50
+
+messages:
+  permission: "&4Insufficient permissions"
+  toggle-on: "&aYou can now fly"
+  toggle-off: "&cYou can no longer fly"
+  money-taken: "&a$[money] was taken from your account"
+  cant-fly: "&cYou can't toggle flight here"
+  target-missing: "&cPlayer not found"
+  target-toggled: "&aToggled player [player]'s flight"
+  money: "&cYou don't have enough money!"
+  need-faction: "&cYou must be in a Faction"

@@ -1,0 +1,20 @@
+name: FactionsFly
+version: 1.0
+description: A simple plugin that relates to toggling flight in Faction land claims
+author: SainttX
+
+main: com.sainttx.factionsfly.FactionsFly
+depend: [Vault, Factions]
+
+commands:
+  fly:
+    description: Toggle flight
+permissions:
+  factionsfly.fly.bypass:
+    description: Flight bypasses
+  factionsfly.fly:
+    description: Base command for flight
+  factionsfly.fly.ally:
+    description: Allows for flying inside Ally territories
+  factionsfly.fly.other:
+    description: Allows toggling of other users flight
